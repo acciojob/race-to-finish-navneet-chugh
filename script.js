@@ -3,7 +3,7 @@ window.promises = [];
 // Do not change the code above this
 // add your promises to the array `promises`
 // Array of promises
-const promises = [
+promises = [
   new Promise((resolve) => setTimeout(() => resolve("Promise 1 resolved"), getRandomTime())),
   new Promise((resolve) => setTimeout(() => resolve("Promise 2 resolved"), getRandomTime())),
   new Promise((resolve) => setTimeout(() => resolve("Promise 3 resolved"), getRandomTime())),
